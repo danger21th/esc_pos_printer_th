@@ -1,5 +1,5 @@
 name: esp_pos_printer_th
-description: A new Flutter package project.
+description: The library allows to print receipts using an ESC/POS thermal WiFi printer 2023.
 version: 0.0.1
 homepage: https://github.com/danger21th/esc_pos_printer_th
 
