@@ -7,5 +7,5 @@
  */
 library esc_pos_printer_th;
 
-export 'src/enums.dart';
-export 'src/network_printer.dart';
+export 'src/printer/enums.dart';
+export 'src/printer/network_printer.dart';
