@@ -6,6 +6,9 @@ Future<void> main() async {
   CapabilityProfile profile = await CapabilityProfile.load();
   //profile.codePages = 255;
   NetworkPrinter printer = NetworkPrinter(PaperSize.mm80, profile);
+
+  //PngDecoder().decodeImage(List.generate(1, (index) => 1));
+
   test('Tests not implemented', () {
     expect(1, 1);
   });
