@@ -9,7 +9,8 @@
 import 'dart:io';
 import 'dart:typed_data' show Uint8List;
 import 'package:esc_pos_utils/esc_pos_utils.dart';
-import 'package:image/image.dart';
+//import '../image.dart';
+import 'package:image/image.dart' as imageinside;
 import 'enums.dart';
 
 /// Network Printer
@@ -116,12 +117,12 @@ class NetworkPrinter {
     _socket.add(_generator.row(cols));
   }
 
-  void image(Image imgSrc, {PosAlign align = PosAlign.center}) {
+  void image(imageinside.Image imgSrc, {PosAlign align = PosAlign.center}) {
     _socket.add(_generator.image(imgSrc, align: align));
   }
 
   void imageRaster(
-    Image image, {
+    imageinside.Image image, {
     PosAlign align = PosAlign.center,
     bool highDensityHorizontal = true,
     bool highDensityVertical = true,

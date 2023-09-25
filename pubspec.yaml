@@ -1,6 +1,6 @@
 name: esp_pos_printer_th
 description: The library allows to print receipts using an ESC/POS thermal WiFi printer 2023.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/danger21th/esc_pos_printer_th
 
 environment:
@@ -8,12 +8,13 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  archive: ^3.4.2
   charset_converter: ^2.1.1
   esc_pos_utils: ^1.1.0
   #esc_pos_utils_plus: ^2.0.2
   flutter:
     sdk: flutter
-  #image: ^3.0.2
+  image: ^3.0.2
   #image: ^4.0.17
 
 dev_dependencies:
